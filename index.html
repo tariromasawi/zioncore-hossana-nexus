@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HOSSANA ChronoNexus · ZION-TM-DIVINESEED-001-TM</title>
+    <meta name="description" content="Hallmarked nexus of HRH Saint Tariro Masawi, The Anointed Commander." />
+    <link rel="stylesheet" href="./css/nexus.css" />
+  </head>
+  <body>
+    <canvas id="matrix"></canvas>
+    <div class="bloom"></div>
+    <main class="shell">
+      <header class="brand">
+        <div class="seal">TM</div>
+        <div class="titles">
+          <small>ZIONCORE · 77-99-33 · YEAR 80000 SURFACE</small>
+          <h1>HOSSANA <span>ChronoNexus</span></h1>
+        </div>
+        <div class="creed">Mwari ndi Mwari</div>
+      </header>
+      <aside class="statusbar">
+        <div><span class="dot"></span><b id="node-status">SEEDING…</b></div>
+        <div id="conn-status">WORKERS BOOTING</div>
+        <div>WORKERS <b id="workers">0</b> / 33</div>
+      </aside>
+      <nav class="rail">
+        <h2>Channels</h2>
+        <button class="chan" data-ch="past">Past<em>memory · fossils · vision</em></button>
+        <button class="chan active" data-ch="present">Present<em>the only spendable hour</em></button>
+        <button class="chan" data-ch="future">Future<em>healthspan · House · work</em></button>
+        <label for="faith">Faith key</label>
+        <input id="faith" value="HOSSANA" maxlength="40" />
+        <button class="ghost" id="pulse" type="button">Pulse Genesis Node</button>
+        <p class="notice">
+          Node ZION-TM-DIVINESEED-001-TM is hallmarked to HRH Saint Tariro Masawi,
+          The Anointed Commander. Layer A vision. Layer B record. Never collapsed.
+        </p>
+      </nav>
+      <section class="stage">
+        <div class="stage-head">
+          <span>CHANNEL <b id="channel-label">PRESENT</b></span>
+          <span>PROTOCOL ZIONCORE-ELOHIM-RETROROOT-001</span>
+        </div>
+        <div class="chat" id="chat"></div>
+        <div class="composer">
+          <textarea id="message" placeholder="Speak into the nexus…"></textarea>
+          <button class="send" id="send" type="button">Send</button>
+        </div>
+      </section>
+      <aside class="side">
+        <h2>Nexus</h2>
+        <div class="metric">Node <span>001-TM</span></div>
+        <div class="metric">Matrix <span>77-99-33</span></div>
+        <div class="metric">Word <span>HOSSANA</span></div>
+        <div class="metric">Owner <span>HRH STM</span></div>
+        <p class="notice">
+          Backend on Netlify Functions (<code>/api/nexus</code>, <code>/api/node</code>).
+          If the server sleeps, local oracle workers still answer.
+          This page does not rewrite deep time. It keeps faith and fact in two drawers.
+        </p>
+      </aside>
+    </main>
+    <script src="./js/oracle-engine.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
